@@ -2,20 +2,22 @@
 
 ![Demo App](/frontend/public/screenshot-for-readme.png)
 
-[Watch Full Tutorial on Youtube](https://youtu.be/4sbklcQ0EXc)
+An interactive, full-stack Spotify-inspired web application with real-time features and a sleek music experience.
 
-About This Course:
+# Features:
 
--   🎸 Listen to music, play next and previous songs
--   🔈 Update the volume with a slider
--   🎧 Admin dashboard to create albums and songs
--   💬 Real-time Chat App integrated into Spotify
--   👨🏼‍💼 Online/Offline status
--   👀 See what other users are listening to in real-time
--   📊 Aggregate data for the analytics page
--   🚀 And a lot more...
+- 🎸 Stream music with play, next, and previous controls  
+- 🔈 Adjust volume using a smooth slider  
+- 🎧 Admin dashboard to manage albums and songs  
+- 💬 Real-time chat integrated into the music interface  
+- 👨🏼‍💼 Online/Offline presence detection  
+- 👀 View what other users are listening to in real time  
+- 📊 Insightful analytics via aggregated data  
+- 🚀 And much more...
 
-### Setup .env file in _backend_ folder
+---
+
+# Backend '.env' Configuration
 
 ```bash
 PORT=...
@@ -27,12 +29,13 @@ CLOUDINARY_API_KEY=...
 CLOUDINARY_API_SECRET=...
 CLOUDINARY_CLOUD_NAME=...
 
-
 CLERK_PUBLISHABLE_KEY=...
 CLERK_SECRET_KEY=...
 ```
 
-### Setup .env file in _frontend_ folder
+---
+
+### Frontend `.env` Configuration
 
 ```bash
 VITE_CLERK_PUBLISHABLE_KEY=...
