@@ -14,11 +14,3 @@ An interactive, full-stack Spotify-inspired web application with real-time featu
 - 🚀 And much more...
 
 ---
-
----
-
-### Frontend `.env` Configuration
-
-```bash
-VITE_CLERK_PUBLISHABLE_KEY=...
-```
